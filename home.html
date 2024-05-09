@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <title>Nad's Website</title>
+  <link rel="icon" href="gambar/nad.jpg">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+   *{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+   } 
+   body
+   {
+    height: 100vh;
+    background-image: url("gambar/fujiyama.jpg");
+    -webkit-background-size: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+   }
+   .navbar 
+   {
+    background-color: white;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+   }
+   .logo a 
+   {
+    color: #4a2569;
+    font-size: 30px;
+    font-weight: bold;
+   }
+   .menu 
+   {
+    display: flex;
+   }
+   .menu li 
+   {
+    margin-right: 22px;
+   }
+   .menu li:last-child
+   {
+    margin-right: 0;
+   }
+   .menu li a:hover 
+   {
+    background-color: #4a2569;
+    color: #fff;
+    border-radius: 5px;
+   }
+   .menu li a 
+   {
+    color: #4a2569;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+   }
+   .search-box 
+   {
+    display: flex;
+    align-items: center;
+   }
+   .search-box input[type="text"]
+   {
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid#4a2569;
+   }
+   .search-box button 
+   {
+    background-color: #4a2569;
+    color: white;
+    font-weight: bold;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+   }
+   .search-box button:hover 
+   {
+    background-color:#4a2569;
+   }
+   .content 
+   {
+    background-color:rgba(65, 20, 68, 0.638);
+    right: 0%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    position: absolute;
+    transform: translateY(-50%);
+   }
+   .content h1 
+   {
+    font-size: 100px;
+    margin-top: 30px;
+   }
+   .content p{
+    font-size: 30px;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+   }
+   .content button 
+   {
+    width: 200px;
+    margin: 20px 10px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    border: 3px solid plum;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+   }
+   .content button:hover
+   {
+    background-color: whitesmoke;
+   }
+   </style>
+   </head>
+   <body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="home.html">Nad's Website</a>
+        </div>
+        <ul class="menu">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="search-box">
+            <input type="text" name="search" placeholder="Search...">
+            <button type="submit">Search</button>
+        </div>
+        <div class="content">
+            <h1>Nad's Website</h1>
+            <p>Welcome to my personal website. Feel free to explore!</p>
+        <div>
+            <button type="button"> <a href="about.html"> Continue </a></button>
+        </div>
+    </nav>
+   </body>
+   </html>
